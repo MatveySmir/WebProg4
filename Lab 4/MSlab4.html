@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+<body>
+<form>
+    <fieldset>
+        <legend>Опрос студентов</legend>
+        <table class="generalTable">
+            <tr>
+                <td>
+                    <fieldset class="anketa">
+                        <table>
+                        <legend>Анкетные данные</legend>
+                            <tr>
+                                <td>Введите ФИО</td><td><input type="text"><br></td>
+                            </tr>
+                            <tr>
+                                <td>Введите пароль</td><td><input type="text"><br></td>
+                            </tr>
+                            <tr>
+                                <td>Введите E-mail</td><td><input type="text"><br></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="specialization">
+                        <legend>Специализация</legend>
+                        <a1>Выберите свою специальность:</a1>
+                        <INPUT TYPE="RADIO" NAME="Vybor" VALUE="V1" > Программирование в компьютерных системах<br>
+                        <INPUT TYPE="RADIO" NAME="Vybor" VALUE="V2"CHECKED> Компьютерные сети
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                    <td>
+                        <fieldset class="progLang">
+                            <legend>Языки программирования</legend>
+                            <a1>Выберите языки программирования которые вы бы хотели изучить:</a1>
+                            <INPUT TYPE="CHECKBOX" NAME="Surname" VALUE="YES"> PHP
+                            <INPUT TYPE="CHECKBOX" NAME="Surname" VALUE="YES"> JavaScript
+                            <INPUT TYPE="CHECKBOX" NAME="Surname" VALUE="YES" checked> SQL
+                            <a1>Укажите уровень освоения языков:</a1>
+                            <select name="ask">
+                                <option label="Начальный" style="background: #ddd;">Начальный </option>
+                                <optgroup label="Базовый" style="background: #aaa;"> </optgroup>
+                                <option label="25%" style="background: #ddd;">HTML 3.2 </option>
+                                <option label="50%" style="background: #ddd;">HTML 4.0 </option>
+                                <optgroup label="Профессиональный" style="background: #aaa;"> </optgroup>
+                                <option label="75%" style="background: #ddd;">CSS-1 </option>
+                                <option label="100%" style="background: #ddd;">CSS-2 </option>
+                            </select>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset class="developLevel">
+                            <legend>Уровень освоения</legend>
+                            <a1>Выберите освоенные функции языков (множественный выбор):</a1>
+                            <select class="developLevelChoice" size="6" multiple>
+                                <option label="Типы данных" >CSS-2 </option>
+                                <option label="Ветвления" >CSS-2 </option>
+                                <option label="Циклы" >CSS-2 </option>
+                                <option label="Массивы" >CSS-2 </option>
+                                <option label="Строки">CSS-2 </option>
+                                <option label="Файлы" >CSS-2 </option>
+                            </select>
+                        </fieldset>
+                    </td>
+            </tr>
+            <td colspan="2">
+                <fieldset class = "callBack">
+                    <legend>Обратная связь</legend>
+                    <a1>Введите свои пожелания по изучению языков программирования:</a1>
+                    <textarea></textarea><br>
+                    <a2>Загрузите свою фотографию:</a2>
+                    <input type="file" class="buttonFile"  ><br>
+                </fieldset>
+            </td>
+        </table>
+        <input type="reset" class="buttonClear" value="Сбросить">
+        <input type="submit" class="buttonSubmit"  value="Отправить">
+    </fieldset>
+</form>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+.generalTable{
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    white-space: nowrap; /* Запрещаем перенос текста */
+    border: 3px solid #fff6c8;
+
+}
+body{
+
+}
+fieldset{
+    display: inline-block;
+    border: 3px solid dimgray;
+    padding: 5px;
+    margin: 2px;
+    background-color: #fff6c8;
+}
+legend{
+    width: auto;
+    border-style: double;
+    border-color: #2b889b;
+    background-color: #fff6c8;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial;
+
+}
+.anketa{
+    width: 400px;
+    height: 180px;
+}
+.specialization{
+    width: 500px;
+    height: 180px;
+
+}
+.progLang{
+    width: 400px;
+    height: 220px;
+    white-space: normal;
+}
+.developLevel{
+    width: 500px;
+    height: 220px;
+    white-space: normal;
+}
+.developLevelChoice{
+    border: 2px solid black;
+    width: 485px;
+    height: 120px;
+    background-color: #ffffff;
+
+}
+.callBack{
+    width: 915px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+}
+textarea:hover{
+    border-color: red;
+    border-width: 2px;
+}
+textarea:focus-visible{
+    border-color: #ab0000;
+    border-width: 4px;
+}
+a1{
+    background-color: #ffa07f;
+    display: block;
+    padding: 5px;
+    font-family:"Arial Narrow";
+}
+.buttonFile{
+    border-radius: 5px;
+}
+.buttonClear, .buttonSubmit{
+    margin-left: 210px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+    width: 120px;
+    height: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .8em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    font-family: "Arial Black";
+}
+
+.buttonClear:focus, .buttonSubmit:focus{
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+}
+.buttonClear:hover, .buttonSubmit:hover{
+    background: -webkit-gradient(linear, left top, left bottom, from(#ec8a56), to(#ffd597));
+}
